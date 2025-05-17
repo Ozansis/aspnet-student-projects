@@ -1,0 +1,205 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Hw6.Site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - News Portal</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #e74c3c;
+            --bg-light: #f8f9fa;
+            --text-dark: #343a40;
+        }
+        
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .navbar {
+            background-color: var(--primary-color);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .navbar-brand {
+            font-weight: bold;
+            color: white !important;
+        }
+        
+        .navbar-nav .nav-link {
+            color: rgba(255,255,255,0.8) !important;
+            transition: color 0.3s;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: white !important;
+        }
+        
+        .navbar-nav .nav-link.active {
+            color: var(--secondary-color) !important;
+            font-weight: 500;
+        }
+        
+        .footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+        }
+        
+        .news-card {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        
+        .news-card .card-img-top {
+            height: 180px;
+            object-fit: cover;
+        }
+        
+        .card-title {
+            font-weight: 600;
+            line-height: 1.4;
+        }
+        
+        .category-badge {
+            background-color: var(--secondary-color);
+            color: white;
+            border-radius: 30px;
+            padding: 0.25rem 0.75rem;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #1a252f;
+            border-color: #1a252f;
+        }
+        
+        .section-title {
+            position: relative;
+            margin-bottom: 2rem;
+            padding-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background-color: var(--secondary-color);
+        }
+    </style>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="Home.aspx">
+                    <i class="fas fa-newspaper me-2"></i>News Portal
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link <%= Request.Url.AbsolutePath.EndsWith("Home.aspx") ? "active" : "" %>" 
+                               href="Home.aspx">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <%= Request.Url.AbsolutePath.EndsWith("Category.aspx") && Request.QueryString["Category"] == "World" ? "active" : "" %>" 
+                               href="Category.aspx?Category=World">World</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <%= Request.Url.AbsolutePath.EndsWith("Category.aspx") && Request.QueryString["Category"] == "Technology" ? "active" : "" %>" 
+                               href="Category.aspx?Category=Technology">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <%= Request.Url.AbsolutePath.EndsWith("Category.aspx") && Request.QueryString["Category"] == "Sports" ? "active" : "" %>" 
+                               href="Category.aspx?Category=Sports">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <%= Request.Url.AbsolutePath.EndsWith("RSSparsing.aspx") ? "active" : "" %>" 
+                               href="RSSparsing.aspx">Update News</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="container mt-4 mb-4">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5><i class="fas fa-newspaper me-2"></i>News Portal</h5>
+                        <p>Stay updated with the latest news across various categories. Our news portal brings you fresh content directly from reliable sources.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Categories</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="Category.aspx?Category=World" class="text-white">World</a></li>
+                            <li><a href="Category.aspx?Category=Technology" class="text-white">Technology</a></li>
+                            <li><a href="Category.aspx?Category=Sports" class="text-white">Sports</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="Home.aspx" class="text-white">Home</a></li>
+                            <li><a href="RSSparsing.aspx" class="text-white">Update News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="bg-white" />
+                <div class="text-center">
+                    <p class="mb-0">&copy; <%= DateTime.Now.Year %> News Portal. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </form>
+</body>
+</html>

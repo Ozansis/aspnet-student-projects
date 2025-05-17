@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5CF749-79CB-4881-A710-343C294D61F6}|Hw6\\Hw6.csproj|c:\\users\\volka\\desktop\\web based tech\\unique\\6\\hw6\\hw6\\rssparsing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1D5CF749-79CB-4881-A710-343C294D61F6}|Hw6\\Hw6.csproj|solutionrelative:hw6\\rssparsing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5CF749-79CB-4881-A710-343C294D61F6}|Hw6\\Hw6.csproj|C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\hw6\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5CF749-79CB-4881-A710-343C294D61F6}|Hw6\\Hw6.csproj|solutionrelative:hw6\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5CF749-79CB-4881-A710-343C294D61F6}|Hw6\\Hw6.csproj|C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\hw6\\rssparsing.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5CF749-79CB-4881-A710-343C294D61F6}|Hw6\\Hw6.csproj|solutionrelative:hw6\\rssparsing.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5CF749-79CB-4881-A710-343C294D61F6}|Hw6\\Hw6.csproj|C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\hw6\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1D5CF749-79CB-4881-A710-343C294D61F6}|Hw6\\Hw6.csproj|solutionrelative:hw6\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RSSparsing.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\Hw6\\RSSparsing.aspx.cs",
+              "RelativeDocumentMoniker": "Hw6\\RSSparsing.aspx.cs",
+              "ToolTip": "C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\Hw6\\RSSparsing.aspx.cs",
+              "RelativeToolTip": "Hw6\\RSSparsing.aspx.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAQwGUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:02:09.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RSSparsing.aspx",
+              "DocumentMoniker": "C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\Hw6\\RSSparsing.aspx",
+              "RelativeDocumentMoniker": "Hw6\\RSSparsing.aspx",
+              "ToolTip": "C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\Hw6\\RSSparsing.aspx",
+              "RelativeToolTip": "Hw6\\RSSparsing.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-05T18:02:06.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\Hw6\\Home.aspx",
+              "RelativeDocumentMoniker": "Hw6\\Home.aspx",
+              "ToolTip": "C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\Hw6\\Home.aspx",
+              "RelativeToolTip": "Hw6\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-05T11:14:33.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\Hw6\\Home.aspx.cs",
+              "RelativeDocumentMoniker": "Hw6\\Home.aspx.cs",
+              "ToolTip": "C:\\Users\\volka\\Desktop\\Web Based Tech\\unique\\6\\Hw6\\Hw6\\Home.aspx.cs",
+              "RelativeToolTip": "Hw6\\Home.aspx.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADcAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:20:11.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

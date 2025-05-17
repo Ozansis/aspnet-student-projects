@@ -1,0 +1,402 @@
+[
+    {
+        "Name": "Zeus",
+        "Question": "12 Olimposlu Yunan Tanrısı?"
+    },
+    {
+        "Name": "Vietnam",
+        "Question": "Amerika Birleşik Devletleri tarihi boyunca en büyük zaiyatı hangi savaşta vermiştir?"
+    },
+    {
+        "Name": "Meşe",
+        "Question": "Fenerbahçe SK armasında bulunan yaprak hangi bitkiye aittir?"
+    },
+    {
+        "Name": "Benazir Butto",
+        "Question": "Pakistanın ilk kadın başbakanı?"
+    },
+    {
+        "Name": "Atatürk",
+        "Question": "Türkiye Cumhuriyeti'nin kurucusu ve ilk Cumhurbaşkanı kimdir?"
+    },
+    {
+        "Name": "Mona Lisa",
+        "Question": "Dünyanın en ünlü tablosu olarak kabul edilen eser hangisidir?"
+    },
+    {
+        "Name": "Newton",
+        "Question": "Yerçekimi yasasını keşfeden ünlü İngiliz bilim insanı kimdir?"
+    },
+    {
+        "Name": "Kızılırmak",
+        "Question": "Türkiye'nin en uzun nehri hangisidir?"
+    },
+    {
+        "Name": "Amazon",
+        "Question": "Dünyanın en büyük yağmur ormanı hangi kıtada yer almaktadır?"
+    },
+    {
+        "Name": "Everest",
+        "Question": "Dünyanın en yüksek dağı hangisidir?"
+    },
+    {
+        "Name": "Nile",
+        "Question": "Dünyanın en uzun nehri hangisidir?"
+    },
+    {
+        "Name": "Sokrates",
+        "Question": "Batı felsefesinin kurucularından biri olan Antik Yunan filozofu kimdir?"
+    },
+    {
+        "Name": "Hamlet",
+        "Question": "William Shakespeare'in ünlü trajedisinin başkahramanı kimdir?"
+    },
+    {
+        "Name": "Tesla",
+        "Question": "Elektrik ve manyetizma üzerine önemli buluşlara imza atan Sırp asıllı Amerikalı mucit kimdir?"
+    },
+    {
+        "Name": "Guguk Saati",
+        "Question": "Her saatin başında guguk sesi çıkaran saat türü hangisidir?"
+    },
+    {
+        "Name": "İncil",
+        "Question": "Hristiyanlık inancının kutsal kitabı hangisidir?"
+    },
+    {
+        "Name": "Kuran",
+        "Question": "İslam dininin kutsal kitabı hangisidir?"
+    },
+    {
+        "Name": "Kapalıçarşı",
+        "Question": "İstanbul'un tarihi yarımadasında yer alan ünlü alışveriş merkezi hangisidir?"
+    },
+    {
+        "Name": "İstiklal Caddesi",
+        "Question": "İstanbul'un Beyoğlu semtinde yer alan, tarihi ve turistik ünlü cadde hangisidir?"
+    },
+    {
+        "Name": "Galata Kulesi",
+        "Question": "İstanbul'da yer alan ve şehri panoramik olarak gören tarihi kule hangisidir?"
+    },
+    {
+        "Name": "Boğaziçi",
+        "Question": "İstanbul'da Asya ve Avrupa yakalarını birbirine bağlayan ünlü boğazın adı nedir?"
+    },
+    {
+        "Name": "İzmir",
+        "Question": "Ege Bölgesi'nde yer alan, Türkiye'nin üçüncü büyük şehri hangisidir?"
+    },
+    {
+        "Name": "Ankara",
+        "Question": "Türkiye'nin başkenti hangi şehirdir?"
+    },
+    {
+        "Name": "İstanbul",
+        "Question": "Türkiye'nin en kalabalık ve tarihi dokusuyla ünlü şehri hangisidir?"
+    },
+    {
+        "Name": "Venedik",
+        "Question": "Kanalları ve gondollarıyla ünlü, İtalya'da yer alan tarihi şehir hangisidir?"
+    },
+    {
+        "Name": "Roma",
+        "Question": "İtalya'nın başkenti ve antik imparatorluk merkezi hangisidir?"
+    },
+    {
+        "Name": "Paris",
+        "Question": "Eyfel Kulesi'nin bulunduğu, romantizmin başkenti olarak bilinen şehir hangisidir?"
+    },
+    {
+        "Name": "Londra",
+        "Question": "İngiltere'nin başkenti ve ünlü Big Ben'in bulunduğu şehir hangisidir?"
+    },
+    {
+        "Name": "Berlin",
+        "Question": "Almanya'nın başkenti ve tarihi Berlin Duvarı'nın yıkıldığı şehir hangisidir?"
+    },
+    {
+        "Name": "Mısır",
+        "Question": "Antik medeniyeti ve piramitleriyle ünlü ülke hangisidir?"
+    },
+    {
+        "Name": "Giza",
+        "Question": "Mısır'da bulunan ve Büyük Piramit'in yer aldığı antik kent hangisidir?"
+    },
+    {
+        "Name": "Sfenks",
+        "Question": "Mısır piramitleri yanında yer alan, aslan gövdesü ve insan başıyla bilinen heykel hangisidir?"
+    },
+    {
+        "Name": "Atilla",
+        "Question": "Hun İmparatorluğu'nun en ünlü hükümdarı hangisidir?"
+    },
+    {
+        "Name": "İskender",
+        "Question": "Büyük İskender olarak da bilinen, Makedonya'nın ünlü fatihi kimdir?"
+    },
+    {
+        "Name": "Napolyon",
+        "Question": "Fransa İmparatorluğu'nu yöneten ve Waterloo Savaşı'nda yenilen ünlü general kimdir?"
+    },
+    {
+        "Name": "Süleyman",
+        "Question": "Kanuni Sultan Süleyman olarak da bilinen Osmanlı padişahı hangisidir?"
+    },
+    {
+        "Name": "Fatih",
+        "Question": "İstanbul'u fetheden Osmanlı padişahı kimdir?"
+    },
+    {
+        "Name": "Yavuz Sultan Selim",
+        "Question": "Osmanlı İmparatorluğu'nun doğu seferleriyle bilinen padişahı hangisidir?"
+    },
+    {
+        "Name": "Kanuni",
+        "Question": "Osmanlı'nın en uzun süre hüküm süren padişahı hangisidir?"
+    },
+    {
+        "Name": "Dante",
+        "Question": "İtalyan edebiyatının başyapıtı 'İlahi Komedya'yı yazan şair kimdir?"
+    },
+    {
+        "Name": "Shakespeare",
+        "Question": "İngiliz edebiyatının en ünlü oyun yazarlarından biri olan kimdir?"
+    },
+    {
+        "Name": "Tolstoy",
+        "Question": "Savaş ve Barış romanının yazarı kimdir?"
+    },
+    {
+        "Name": "Orwell",
+        "Question": "1984 ve Hayvan Çiftliği romanlarıyla tanınan İngiliz yazar kimdir?"
+    },
+    {
+        "Name": "Kafka",
+        "Question": "Metamorfoz adlı eseriyle tanınan Çek yazar kimdir?"
+    },
+    {
+        "Name": "Da Vinci",
+        "Question": "Mona Lisa tablosunun yaratıcısı ve Rönesans dönemi dahisi kimdir?"
+    },
+    {
+        "Name": "Galileo",
+        "Question": "Teleskopu kullanarak gökbilime önemli katkılarda bulunan İtalyan bilim insanı kimdir?"
+    },
+    {
+        "Name": "Curie",
+        "Question": "Radyoaktivite üzerine yaptığı çalışmalarla Nobel Ödülü kazanan bilim insanı kimdir?"
+    },
+    {
+        "Name": "Einstein",
+        "Question": "Görelilik teorisiyle modern fiziğe yön veren ünlü teorik fizikçi kimdir?"
+    },
+    {
+        "Name": "Hubble",
+        "Question": "Evrenin genişlediğini keşfeden Amerikalı astronom kimdir?"
+    },
+    {
+        "Name": "Copernicus",
+        "Question": "Güneş merkezli evren modelini ortaya koyan Polonyalı astronom kimdir?"
+    },
+    {
+        "Name": "Farabi",
+        "Question": "İslam dünyasının önemli filozoflarından biri olan Türk düşünür kimdir?"
+    },
+    {
+        "Name": "Yusuf Has Hacip",
+        "Question": "Kutadgu Bilig adlı eseriyle tanınan Türk bilgini kimdir?"
+    },
+    {
+        "Name": "Nasreddin Hoca",
+        "Question": "Mizah dolu hikayeleriyle tanınan Türk halk figürü kimdir?"
+    },
+    {
+        "Name": "Mevlana",
+        "Question": "Mesnevi adlı eseriyle sufi edebiyatının önde gelen isimlerinden biri kimdir?"
+    },
+    {
+        "Name": "Rumi",
+        "Question": "Mevlana'nın Batı'da tanınan adı nedir?"
+    },
+    {
+        "Name": "Yunus Emre",
+        "Question": "Divan edebiyatı dışına çıkarak halk diliyle eserler veren Türk şair kimdir?"
+    },
+    {
+        "Name": "Orhan Pamuk",
+        "Question": "Nobel Edebiyat Ödülü kazanan Türk roman yazarı kimdir?"
+    },
+    {
+        "Name": "Sabahattin Ali",
+        "Question": "Kürk Mantolu Madonna romanının yazarı olan Türk edebiyatçısı kimdir?"
+    },
+    {
+        "Name": "Haldun Taner",
+        "Question": "Türkiye'nin ünlü tiyatro yazarı ve öykücüsü kimdir?"
+    },
+    {
+        "Name": "Orhan Veli",
+        "Question": "Garip akımının öncülerinden olan Türk şair kimdir?"
+    },
+    {
+        "Name": "Behçet Necatigil",
+        "Question": "Modern Türk şiirinin önemli isimlerinden biri olan şair kimdir?"
+    },
+    {
+        "Name": "Nazım Hikmet",
+        "Question": "Türk edebiyatının önemli şairlerinden biri olan ve eserlerinde özgürlük temasını işleyen kimdir?"
+    },
+    {
+        "Name": "Sezen Aksu",
+        "Question": "Türk pop müziğinin eminiz ve 'Minik Serçe' olarak bilinen şarkıcı kimdir?"
+    },
+    {
+        "Name": "Barış Manço",
+        "Question": "Türk rock müziğinin öncülerinden olan ve kendine özgü tarzıyla tanınan müzisyen kimdir?"
+    },
+    {
+        "Name": "Mazhar Alanson",
+        "Question": "Gripin ve diğer müzik gruplarıyla tanınan Türk rock sanatçısı kimdir?"
+    },
+    {
+        "Name": "Tarkan",
+        "Question": "Pop müziğin uluslararası temsilcilerinden olan Türk şarkıcı kimdir?"
+    },
+    {
+        "Name": "Ajda Pekkan",
+        "Question": "Türkiye'nin uzun soluklu pop müziği sanatçılarından biri olan ve 'Süperstar' lakaplı isim kimdir?"
+    },
+    {
+        "Name": "Kenan Doğulu",
+        "Question": "Enerjik sahne performanslarıyla tanınan Türk pop müzik sanatçısı kimdir?"
+    },
+    {
+        "Name": "Nil Karaibrahimgil",
+        "Question": "Sürprizli sözleri ve kendine has tarzıyla tanınan Türk pop-rock şarkıcı kimdir?"
+    },
+    {
+        "Name": "Mavi Boncuk",
+        "Question": "Türk sinemasının unutulmaz komedi filmlerinden biri olan, başrolünde Kemal Sunal'ın oynadığı film hangisidir?"
+    },
+    {
+        "Name": "Hababam Sınıfı",
+        "Question": "Rıfat Ilgaz'ın eserinden uyarlanan ve Türk sinemasının klasikleri arasında yer alan film hangisidir?"
+    },
+    {
+        "Name": "Keloğlan",
+        "Question": "Türk masal kültüründe, kel kafalı ve esprili kahraman olarak bilinen karakter kimdir?"
+    },
+    {
+        "Name": "Kıvanç Tatlıtuğ",
+        "Question": "Türk televizyon dizilerinde ve sinemasında önemli bir aktör olarak tanınan ünlü isim kimdir?"
+    },
+    {
+        "Name": "Cem Yılmaz",
+        "Question": "Türkiye'nin en ünlü stand-up komedyenlerinden biri olan ve film yapımcısı kimdir?"
+    },
+    {
+        "Name": "Acun Ilıcalı",
+        "Question": "Televizyon dünyasında 'Survivor' ve 'O Ses Türkiye' gibi programlarla tanınan televizyon yapımcısı kimdir?"
+    },
+    {
+        "Name": "Nuri Bilge Ceylan",
+        "Question": "Uluslararası film festivallerinde ödüller kazanan ve sinema dünyasında öne çıkan Türk yönetmen kimdir?"
+    },
+    {
+        "Name": "Orhan Gencebay",
+        "Question": "Arabesk müziğin en önemli temsilcilerinden biri olan ve bestecilik kariyeriyle tanınan Türk sanatçı kimdir?"
+    },
+    {
+        "Name": "Müzeyyen Senar",
+        "Question": "Klasik Türk müziğinin ve Türk sanat müziğinin en tanınmış seslerinden biri olan sanatçı kimdir?"
+    },
+    {
+        "Name": "Barbaros Hayreddin Paşa",
+        "Question": "Osmanlı donanmasının efsanevi kaptanı ve denizlerde ün kazanmış denizci kimdir?"
+    },
+    {
+        "Name": "Fatih Sultan Mehmet",
+        "Question": "1453 yılında İstanbul'u fethederek Orta Çağ'ın kapanışına neden olan Osmanlı padişahı kimdir?"
+    },
+    {
+        "Name": "Gazi Mustafa Kemal Atatürk",
+        "Question": "Türkiye Cumhuriyeti'nin kurucusu ve modern Türkiye'nin mimarı olan lider kimdir?"
+    },
+    {
+        "Name": "Mevlana Celaleddin Rumi",
+        "Question": "Mesnevi adlı eseriyle sufi düşüncesine yön veren ünlü İslam alimi kimdir?"
+    },
+    {
+        "Name": "Şeyh Edebali",
+        "Question": "Osmanlı Devleti'nin kuruluşunda etkili olan ve Osman Gazi'nin akıl hocası olarak bilinen isim kimdir?"
+    },
+    {
+        "Name": "Yavuz Sultan Selim",
+        "Question": "Doğu seferleriyle Osmanlı İmparatorluğu'nun sınırlarını genişleten padişah kimdir?"
+    },
+    {
+        "Name": "Muhammed Ali",
+        "Question": "Amerikan boksunun efsanevi şampiyonu ve 'The Greatest' lakaplı sporcu kimdir?"
+    },
+    {
+        "Name": "Michael Jordan",
+        "Question": "Basketbol tarihinin en büyük oyuncularından biri olarak kabul edilen Amerikalı basketbolcu kimdir?"
+    },
+    {
+        "Name": "Serena Williams",
+        "Question": "Tenis kortlarında en başarılı kadın sporculardan biri olan Amerikalı tenisçi kimdir?"
+    },
+    {
+        "Name": "Usain Bolt",
+        "Question": "Dünyanın en hızlı koşucusu olarak bilinen Jamaikalı sprinter kimdir?"
+    },
+    {
+        "Name": "Roger Federer",
+        "Question": "Teniste uzun süre rekorlar kırmış ve Grand Slam şampiyonlukları kazanmış İsviçreli tenisçi kimdir?"
+    },
+    {
+        "Name": "Lionel Messi",
+        "Question": "Futbol tarihinin en yetenekli oyuncularından biri olarak kabul edilen Arjantinli futbolcu kimdir?"
+    },
+    {
+        "Name": "Cristiano Ronaldo",
+        "Question": "Futbol dünyasının en golcü isimlerinden biri olan Portekizli futbolcu kimdir?"
+    },
+    {
+        "Name": "Pele",
+        "Question": "Futbolun efsane isimlerinden biri olan Brezilyalı futbolcu kimdir?"
+    },
+    {
+        "Name": "Diego Maradona",
+        "Question": "Futbol tarihinin en ikonik figürlerinden biri olarak bilinen Arjantinli futbolcu kimdir?"
+    },
+    {
+        "Name": "Marlon Brando",
+        "Question": "Sinema tarihinin en önemli aktörlerinden biri olarak kabul edilen Amerikalı aktör kimdir?"
+    },
+    {
+        "Name": "Robert De Niro",
+        "Question": "Sinema dünyasında unutulmaz roller üstlenen Amerikalı aktör kimdir?"
+    },
+    {
+        "Name": "Alfred Hitchcock",
+        "Question": "Gerilim ve polisiye filmleriyle ünlü İngiliz-Amerikalı yönetmen kimdir?"
+    },
+    {
+        "Name": "Steven Spielberg",
+        "Question": "Bilim kurgu ve macera türündeki filmleriyle tanınan Amerikalı yönetmen kimdir?"
+    },
+    {
+        "Name": "Martin Scorsese",
+        "Question": "Amerikan sinemasının en etkili yönetmenlerinden biri olan film yapımcısı kimdir?"
+    },
+    {
+        "Name": "Quentin Tarantino",
+        "Question": "Kendi tarzıyla fark yaratan ve genellikle şiddetli sahneleriyle tanınan Amerikalı yönetmen kimdir?"
+    },
+    {
+        "Name": "Christopher Nolan",
+        "Question": "Modern sinemanın önde gelen yönetmenlerinden biri olarak bilinen, Inception ve The Dark Knight filmleriyle ünlü kimdir?"
+    }
+]
